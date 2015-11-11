@@ -1,0 +1,83 @@
+@font-face {
+  font-family: k;
+  src: url("../fonts/k.otf") format("opentype");
+}
+
+body {
+  font-family: k, arial, helvetica;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #000;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+p {
+  font-size: 2vw;
+  line-height: 200%;
+}
+
+section * {
+  text-align:center;
+  position: relative;
+}
+
+div.panel {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  text-align: center;
+  margin: 30% auto auto;
+  padding: 0.5em;
+}
+
+#fp-nav.right {
+  right: 1%;
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+  display:  block;
+  width:    14px;
+  height:   13px;
+  margin:   7px;
+  position: relative;
+}
+
+/* For ipad: */
+@media screen and (max-width : 768px) {
+}
+
+/* For mobile : like samsung grand(480 * 800): */
+@media screen and (max-width : 480px) {
+  /* section { background-size: 600px auto !important } */
+}
+
+
+/* /1* For iphone: *1/ */
+/* @media screen and (max-width : 320px) { */
+/*   h1 { font-size: 4.5em; } */
+/*   p { font-size: 1.1em; } */
+/* } */
+
+/*
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #24221F;
+}
+*/

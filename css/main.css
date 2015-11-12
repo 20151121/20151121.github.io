@@ -19,24 +19,23 @@ p {
 }
 
 section * {
-  text-align:center;
-  position: relative;
+  text-align: center;
+  position:   relative;
 }
 
 div.panel {
   background-color: rgba(255, 255, 255, 0.2);
-  width: 50%;
-  text-align: center;
-  margin: 30% auto auto;
-  padding: 0.5em;
+  width:            50%;
+  text-align:       center;
+  margin:           30% auto auto;
+  padding:          0.5em;
 }
 
 #fp-nav.right {
   right: 1%;
 }
 
-#fp-nav ul li,
-.fp-slidesNav ul li {
+#fp-nav ul li, .fp-slidesNav ul li {
   display:  block;
   width:    14px;
   height:   13px;
@@ -44,40 +43,21 @@ div.panel {
   position: relative;
 }
 
-/* For ipad: */
-@media screen and (max-width : 768px) {
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #777;
 }
 
-/* For mobile : like samsung grand(480 * 800): */
-@media screen and (max-width : 480px) {
-  /* section { background-size: 600px auto !important } */
-}
+.section1  { background: url('../images/IMG_0392.jpg') no-repeat center / 85% auto }
+.section2  { background: url('../images/DSCF3381.jpg') no-repeat center / 85% auto }
+.section3  { background: url('../images/DSCF3390.jpg') no-repeat center / 85% auto }
+.section4  { background: url('../images/IMG_0205.jpg') no-repeat center / 85% auto }
+.section5  { background: url('../images/DSCF3421.jpg') no-repeat center / 85% auto }
+.section6  { background: url('../images/DSCF3543.jpg') no-repeat center / 85% auto }
+.section7  { background: url('../images/IMG_0240.jpg') no-repeat center / 85% auto }
+.section8  { background: url('../images/IMG_0246.jpg') no-repeat center / 85% auto }
+.section9  { background: url('../images/IMG_0304.jpg') no-repeat center / 85% auto }
+.section10 { background: url('../images/IMG_0331.jpg') no-repeat center / 85% auto }
+.section11 { background: url('../images/DSCF3598.jpg') no-repeat center / 85% auto }
+.section12 { background: url('../images/IMG_0377.jpg') no-repeat center / 85% auto }
+.section13 { background: url('../images/IMG_0394.jpg') no-repeat center / 85% auto }
 
-
-/* /1* For iphone: *1/ */
-/* @media screen and (max-width : 320px) { */
-/*   h1 { font-size: 4.5em; } */
-/*   p { font-size: 1.1em; } */
-/* } */
-
-/*
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-    background: white;
-    width: 8px;
-    height: 8px;
-    margin: -4px 0 0 -4px;
-}
-
-#fp-nav ul li a.active span,
-.fp-slidesNav ul li a.active span,
-#fp-nav ul li:hover a.active span,
-.fp-slidesNav ul li:hover a.active span {
-    width: 16px;
-    height: 16px;
-    margin: -8px 0 0 -8px;
-    background: transparent;
-    box-sizing: border-box;
-    border: 1px solid #24221F;
-}
-*/

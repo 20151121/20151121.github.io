@@ -1,7 +1,6 @@
 @font-face {
   font-family: k;
-  /* src: url("../fonts/k2.otf") format("opentype"); */
-  src: url("http://cfile233.uf.daum.net/attach/213C674D5645F3CA3DBE1F") format("opentype");
+  src: url("../fonts/k.otf") format("opentype");
 }
 
 body {

@@ -47,17 +47,9 @@ div.panel {
   background: #777;
 }
 
-.section1  { background: url('../images/IMG_0392.jpg') no-repeat center / 85% auto }
-.section2  { background: url('../images/DSCF3381.jpg') no-repeat center / 85% auto }
-.section3  { background: url('../images/DSCF3390.jpg') no-repeat center / 85% auto }
-.section4  { background: url('../images/IMG_0205.jpg') no-repeat center / 85% auto }
-.section5  { background: url('../images/DSCF3421.jpg') no-repeat center / 85% auto }
-.section6  { background: url('../images/DSCF3543.jpg') no-repeat center / 85% auto }
-.section7  { background: url('../images/IMG_0240.jpg') no-repeat center / 85% auto }
-.section8  { background: url('../images/IMG_0246.jpg') no-repeat center / 85% auto }
-.section9  { background: url('../images/IMG_0304.jpg') no-repeat center / 85% auto }
-.section10 { background: url('../images/IMG_0331.jpg') no-repeat center / 85% auto }
-.section11 { background: url('../images/DSCF3598.jpg') no-repeat center / 85% auto }
-.section12 { background: url('../images/IMG_0377.jpg') no-repeat center / 85% auto }
-.section13 { background: url('../images/IMG_0394.jpg') no-repeat center / 85% auto }
+section {
+  background-size:     85% auto;
+  background-repeat:   no-repeat;
+  background-position: center;
+}
 

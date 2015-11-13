@@ -1,5 +1,7 @@
-function vwpx(vw) {
-  return $(window).outerWidth() / 100 * vw
+function vwpx(x) {
+  var vw = $(window).outerWidth() / 100 * x
+  var vh = $(window).outerHeight() / 100 * x * 0.7
+  return Math.max(vw, vh)
 }
 
 $(document).ready(function() {
@@ -8,6 +10,13 @@ $(document).ready(function() {
     navigation:      true
   })
 
-  $('h1').css({fontSize: vwpx(4)+'px'})
-  $('p').css({fontSize:  vwpx(2.5)+'px'})
+  var setFontSize = function() {
+    $('h1').css({fontSize: vwpx(4)+'px'})
+    $('p').css({fontSize:  vwpx(2.5)+'px'})
+  }
+
+  setFontSize()
+  $(window).resize(function() {
+    setFontSize()
+  });
 })
